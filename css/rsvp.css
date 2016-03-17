@@ -1,6 +1,51 @@
-/* Fonts */
-body, button {
-	font-family: 'Amatic SC', cursive;
+/* General Styles */
+body {
+
+}
+p {
+
+}
+a {
+
+}
+a:hover {
+
+}
+a:active {
+
+}
+h1 {
+
+}
+h2 {
+	padding:1em;
+	text-align: center;
+	color: #000066;
+	font-size: 25px;
+}
+
+h3 {
+	font-size: 40px;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+}
+
+main p {
+	font-size: 25px;
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
 }
 
 /* Header */
@@ -10,43 +55,36 @@ header {
 header a {
 	color: #000066;
 	text-decoration: none;
+	width: 100%;
 }
 header a:hover {
-	color: white;
+	color: black;
+}
+
+.logo {
+	width: 300px;
+	float: left;
 }
 
 /*Setup a Container for Multi-Use*/
 .container {
-	width: 100%;
+	width: 960px;
 	margin: 0 auto;
 }
 .nav-main {
 	text-align: center;
-	width: 100%;
-}
-.nav-main ul {
-	width: 100%;
 }
 .nav-main ul li {
 	display: inline-block;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	padding-left: 1em;
-	padding-right: 1em;
-	font-size: 50px;
-}
-.nav-home, .nav-rsvp, .nav-meal, .nav-gifts, .nav-faq {
-	border-right: solid 3px #000033;
-}
-.nav-home {
-	border-left: solid 3px #000033;
+	padding:1em;
+	font-size: 25px;
 }
 
 /* Section: Banner + Feature */
 .banner {
 	background: url("../images/banner.jpg") no-repeat scroll center center / cover;
 	min-height: 250px;
-	height: 190px;
+	height: 250px;
 }
 .banner img {
 	width: 100%;	
@@ -57,9 +95,7 @@ header a:hover {
 .banner-content {
 	margin: 0 auto;
 	width: 100%;
-	height: 250px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 50px;
 }
 .name, .front-end {
 	color: white;
@@ -70,9 +106,10 @@ header a:hover {
 	font-weight: bold;
 }
 .front-end {
-	font-size: 60px;
-	padding-top: 10px;
+	font-size: 40px;
+	padding: 20px;
 }
+
 .feature {
 	background: #FFCC00;
 }
@@ -81,34 +118,16 @@ header a:hover {
 main {
 	width: 50%;
 	float: left;
-	text-align: center;
-}
-h1 {
-	font-size: 70px;
-	padding-top: 0.5em;
-	padding-bottom: 0.25em;
-
-	color: #000033;
 }
 
 aside {
+	background-color: navy;
 	color: white;
 	float: right;
-	width: 50%;
 }
 
 aside ul {
 	list-style-type: none;
-}
-
-/* Buttons */
-button {
-	background-color: #FFCC00;
-	font-size: 50px;
-	padding: 20px;
-	margin: 20px;
-	color: #000033;
-
 }
 
 
@@ -130,13 +149,14 @@ button {
 /* Footer */
 footer {
 	clear: both;
-	background: #000033;
+	background: #000066;
 }
 
-.heart {
-	color: white;
+.social {
 	text-align: center;
-	font-size: 30px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+}
+
+.social li {
+	display: inline-block;
+	padding: 1em;
 }
