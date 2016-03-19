@@ -61,7 +61,7 @@ header a:hover {
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-.name, .front-end {
+.name, .date {
 	color: white;
 	text-align: center;
 }
@@ -69,7 +69,7 @@ header a:hover {
 	font-size: 100px;
 	font-weight: bold;
 }
-.front-end {
+.date {
 	font-size: 60px;
 	padding-top: 10px;
 }

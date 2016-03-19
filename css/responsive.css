@@ -1,12 +1,16 @@
+@media screen and (max-width: 475px) {
+	.date {
+		font-size: 40px;
+	}
+	.banner-content {
+		padding-top: 15px;
+	}
+}
 @media screen and (max-width: 650px) {
 	.name {
 		font-size: 80px;
 	}
-	.front-end {
-		font-size: 40px;
-	}
 }
-
 @media screen and (max-width: 800px) {
 	button {
 		width: 100%;
@@ -44,7 +48,7 @@
 		margin: 10px;
 	}
 }
-@media screen and (min-width: 1300px) and (max-width: 1600px) {
+@media screen and (min-width: 1300px) and (max-width: 1549px) {
 	button {
 		font-size: 70px;
 	}
@@ -56,6 +60,32 @@
 }
 @media screen and (min-width: 1751px) {
 	button {
-		font-size: 110px;
+		font-size: 100px;
+	}
+	h1 {
+		font-size: 100px;
+	}
+	.nav-main ul li {
+		font-size: 65px;
+	}
+}
+@media screen and (min-width: 2000px) {
+	body {
+		border-left: solid 1px #000033;
+		border-right: solid 1px #000033;
+	}
+	aside {
+		width: 49%;
+	}
+}
+@media screen and (min-width: 2000px) {
+	body {
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+}
+@media screen and (min-width: 1550px) and (max-width: 1750px) {
+	button {
+		font-size: 80px;
 	}
 }
