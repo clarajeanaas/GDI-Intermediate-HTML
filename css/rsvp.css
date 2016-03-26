@@ -1,51 +1,6 @@
-/* General Styles */
-body {
-
-}
-p {
-
-}
-a {
-
-}
-a:hover {
-
-}
-a:active {
-
-}
-h1 {
-
-}
-h2 {
-	padding:1em;
-	text-align: center;
-	color: #000066;
-	font-size: 25px;
-}
-
-h3 {
-	font-size: 40px;
-	text-align: center;
-	padding-top: 1em;
-	padding-bottom: 0.5em;
-}
-
-main p {
-	font-size: 25px;
-
-}
-
-h4 {
-
-}
-
-h5 {
-
-}
-
-h6 {
-
+/* Fonts */
+body, button {
+	font-family: 'Amatic SC', cursive;
 }
 
 /* Header */
@@ -55,36 +10,43 @@ header {
 header a {
 	color: #000066;
 	text-decoration: none;
-	width: 100%;
 }
 header a:hover {
-	color: black;
-}
-
-.logo {
-	width: 300px;
-	float: left;
+	color: white;
 }
 
 /*Setup a Container for Multi-Use*/
 .container {
-	width: 960px;
+	width: 100%;
 	margin: 0 auto;
 }
 .nav-main {
 	text-align: center;
+	width: 100%;
+}
+.nav-main ul {
+	width: 100%;
 }
 .nav-main ul li {
 	display: inline-block;
-	padding:1em;
-	font-size: 25px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	font-size: 50px;
+}
+.nav-home, .nav-rsvp, .nav-meal, .nav-gifts, .nav-faq {
+	border-right: solid 3px #000033;
+}
+.nav-home {
+	border-left: solid 3px #000033;
 }
 
 /* Section: Banner + Feature */
 .banner {
 	background: url("../images/banner.jpg") no-repeat scroll center center / cover;
 	min-height: 250px;
-	height: 250px;
+	height: 190px;
 }
 .banner img {
 	width: 100%;	
@@ -95,9 +57,11 @@ header a:hover {
 .banner-content {
 	margin: 0 auto;
 	width: 100%;
-	padding-top: 50px;
+	height: 250px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
-.name, .front-end {
+.name, .date {
 	color: white;
 	text-align: center;
 }
@@ -105,35 +69,15 @@ header a:hover {
 	font-size: 100px;
 	font-weight: bold;
 }
-.front-end {
-	font-size: 40px;
-	padding: 20px;
+.date {
+	font-size: 60px;
+	padding-top: 10px;
 }
-
 .feature {
 	background: #FFCC00;
 }
 
-/* Secton: Content */
-main {
-	width: 50%;
-	float: left;
-}
-
-aside {
-	background-color: navy;
-	color: white;
-	float: right;
-}
-
-aside ul {
-	list-style-type: none;
-}
-
-
 /* Section: Services */
-
-
 .box {
 	background: #FFCC00;
 	color: #fff;
@@ -149,14 +93,13 @@ aside ul {
 /* Footer */
 footer {
 	clear: both;
-	background: #000066;
+	background: #000033;
 }
 
-.social {
+.heart {
+	color: white;
 	text-align: center;
-}
-
-.social li {
-	display: inline-block;
-	padding: 1em;
+	font-size: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
