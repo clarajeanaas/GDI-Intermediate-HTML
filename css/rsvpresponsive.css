@@ -1,9 +1,12 @@
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 488px) {
+	.name {
+		margin: 15px;
+	}
 	.date {
 		font-size: 40px;
 	}
 	.banner-content {
-		padding-top: 15px;
+		padding-top: 5px;
 	}
 }
 @media screen and (max-width: 650px) {
