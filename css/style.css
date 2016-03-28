@@ -35,7 +35,7 @@ header a:hover {
 	padding-right: 1em;
 	font-size: 50px;
 }
-.nav-home, .nav-rsvp, .nav-meal, .nav-gifts, .nav-faq {
+.nav-home, .nav-rsvp, .nav-meal, .nav-gifts, .nav-information {
 	border-right: solid 3px #000033;
 }
 .nav-home {
