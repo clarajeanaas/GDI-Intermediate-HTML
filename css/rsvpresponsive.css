@@ -1,64 +1,26 @@
-@media screen and (max-width: 488px) {
-	.name {
-		margin: 15px;
-	}
-	.date {
-		font-size: 40px;
-	}
-	.banner-content {
-		padding-top: 5px;
-	}
-}
-@media screen and (max-width: 650px) {
-	.name {
-		font-size: 80px;
-	}
-}
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 875px) {
 	.nav-main ul li {
-		font-size: 30px;
-		padding: 0.5em;
+		display: none;
 	}
-	main {
-		width: 100%
-	}
-}
-@media screen and (min-width: 801px) and (max-width: 1100px) {
-	.nav-main ul li {
-		font-size: 35px;
-	}
-}
-@media screen and (min-width: 1601px) and (max-width: 1750) {
-	h1 {
-		font-size: 90px;
-	}
-}
-@media screen and (min-width: 1751px) {
-	h1 {
-		font-size: 100px;
-	}
-	.nav-main ul li {
-		font-size: 65px;
-	}
-}
-@media screen and (min-width: 2000px) {
-	body {
-		border-left: solid 1px #000033;
-		border-right: solid 1px #000033;
-	}
-}
-@media screen and (min-width: 2000px) {
-	body {
-		margin-right: 5%;
-		margin-left: 5%;
-	}
-}
-@media screen and (max-width: 488px) {
-	.nav-main ul li {
+	aside, #description {
 		width: 100%;
-	}
-	.nav-home {
-		border-left: none;
+		margin: 5px auto;
+		float: none;
 	}
 }
+@media screen and (min-width: 875px) and (max-width: 990px) {
 
+@media screen and (min-width: 991px) and (max-width: 1160px) {
+	.nav-main ul li {
+		font-size: 25px;
+	}
+		button {
+		font-size: 25px;
+	}
+}
+@media screen and (min-width: 1161px) {
+	body {
+		width: 1200px;
+		margin: auto;
+	}
+}

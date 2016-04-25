@@ -1,91 +1,56 @@
-@media screen and (max-width: 475px) {
-	.date {
-		font-size: 40px;
+@media screen and (max-width: 740px) {
+	.nav-main ul li, aside img {
+		display: none;
 	}
-	.banner-content {
-		padding-top: 15px;
-	}
-}
-@media screen and (max-width: 650px) {
-	.name {
-		font-size: 80px;
-	}
-}
-@media screen and (max-width: 800px) {
-	button {
+	.main {
 		width: 100%;
-		margin: 5px;
-		padding: 10px;
-	}
-	header {
-		display: none;
-	}
-	main {
-		width: 100%
-	}
-	aside {
-		display: none;
-	}
-}
-@media screen and (min-width: 801px) and (max-width: 1100px) {
-		.nav-main ul li {
-		font-size: 35px;
 	}
 	button {
-		font-size: 40px;
+		font-size: 25px;
+		width: 100%;
+		margin: 5px auto;
 	}
 	h1 {
-		font-size: 50px;
+		font-size: 25px;
 	}
 }
-@media screen and (max-width: 900px) and (min-width: 801px) {
-	button {
-		margin: 5px;
-	}
-}
-@media screen and (max-width: 1100px) and (min-width: 901px) {
-	button {
-		margin: 10px;
-	}
-}
-@media screen and (min-width: 1300px) and (max-width: 1549px) {
-	button {
-		font-size: 70px;
-	}
-}
-@media screen and (min-width: 1601px) and (max-width: 1750) {
-	button, h1 {
-		font-size: 90px;
-	}
-}
-@media screen and (min-width: 1751px) {
-	button {
-		font-size: 100px;
-	}
-	h1 {
-		font-size: 100px;
-	}
+@media screen and (min-width: 740px) and (max-width: 875px) {
 	.nav-main ul li {
-		font-size: 65px;
+		display: none;
 	}
-}
-@media screen and (min-width: 2000px) {
-	body {
-		border-left: solid 1px #000033;
-		border-right: solid 1px #000033;
-	}
-	aside {
-		width: 49%;
-	}
-}
-@media screen and (min-width: 2000px) {
-	body {
-		margin-right: 5%;
-		margin-left: 5%;
-	}
-}
-@media screen and (min-width: 1550px) and (max-width: 1750px) {
 	button {
-		font-size: 80px;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	h1 {
+		font-size: 20px;
+	}
+}
+@media screen and (min-width: 875px) and (max-width: 990px) {
+	button {
+		font-size: 20px;
+	}
+	h1 {
+		font-size: 25px;
+	}
+}
+@media screen and (min-width: 991px) and (max-width: 1160px) {
+	.nav-main ul li {
+		font-size: 25px;
+	}
+	h1 {
+		font-size: 30px;
+	}
+		button {
+		font-size: 25px;
+	}
+}
+@media screen and (min-width: 1160px) {
+	body {
+		width: 1200px;
+		margin: auto;
+	}
+		button {
+		font-size: 35px;
 	}
 }
