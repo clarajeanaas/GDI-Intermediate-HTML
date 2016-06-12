@@ -18,7 +18,7 @@
 		font-size: 25px;
 	}
 }
-@media screen and (min-width: 1161px) {
+@media screen and (min-width: 1160px) {
 	body {
 		width: 1200px;
 		margin: auto;
